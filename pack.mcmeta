@@ -1,0 +1,6 @@
+﻿{
+   "pack":{
+      "pack_format":6,
+      "description":"動的forceloadを実現する。kd_forceloadタグのついたエンティティがいなくなるまでforceloadし続ける。"
+   }
+}
