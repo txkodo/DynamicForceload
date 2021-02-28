@@ -2,6 +2,9 @@
 動的forceloadを提供するデータパックライブラリ。
 forceloadを上書きする形で用いる。
 なお動的forceloadとは実行者がチャンクに居続ける限りforceloadを続け、実行者がいなくなると自動でunloadするものとする。
+
+テレポ先の位置を読み込んでおくnbtのPosを変更した先を読み込んでおく等、エンティティに紐づいてforceloadしたい場合に有用。
+
 ディメンション別で管理しているのためディメンションを追加している場合はdata/kd_forceload/function/custom/dimensions内のfunctionを書き換える必要がある。(下記参照)
 
 ### 基本コマンド
