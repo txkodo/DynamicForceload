@@ -8,6 +8,8 @@ forceloadを上書きする形で用いる。
 ディメンション別で管理しているのためディメンションを追加している場合はdata/kd_forceload/function/custom/dimensions内のfunctionを書き換える必要がある。(下記参照)
 
 ### 基本コマンド
+```/function kd_forceload:core/init```
+初期化function
 
 ```/function kd_forceload:api/add```
 単純な動的forceload
